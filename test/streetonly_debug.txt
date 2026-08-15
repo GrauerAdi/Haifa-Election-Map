@@ -1,0 +1,46 @@
+QUERY: הגבורים, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: שטרן יאיר, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 210311285,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 1803030475,
+    "lat": "32.8278590",
+    "lon": "34.9637880",
+    "class": "highway",
+    "type": "bus_stop",
+    "place_rank": 30,
+    "importance": 7.358739604786781e-05,
+    "addresstype": "highway",
+    "name": "העוגן/יאיר שטרן",
+    "display_name": "העוגן/יאיר שטרן, העוגן, עין הים, רובע מערב חיפה, חיפה, נפת חיפה, מחוז חיפה, 3570503, ישראל",
+    "boundingbox": [
+      "32.8278090",
+      "32.8279090",
+      "34.9637380",
+      "34.9638380"
+    ]
+  }
+]
+
+QUERY: רחוב שטרן יאיר, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: שד אבא חושי, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: שד סיני, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: שד הרא"ה, חיפה, Israel
+STATUS: 200
+[]
+

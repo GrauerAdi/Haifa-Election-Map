@@ -1,0 +1,2 @@
+number of polygon features named זיו: 1
+idx=59 ROVA=8 TAT_ROVA=81 centroid=POINT (35.015000399879504 32.78371673459269)

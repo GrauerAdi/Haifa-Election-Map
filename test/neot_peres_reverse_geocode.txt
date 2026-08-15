@@ -1,0 +1,34 @@
+STATUS: 200
+{
+  "place_id": 209879509,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 662062855,
+  "lat": "32.7822485",
+  "lon": "34.9677341",
+  "class": "amenity",
+  "type": "school",
+  "place_rank": 30,
+  "importance": 7.358739604786781e-05,
+  "addresstype": "amenity",
+  "name": "",
+  "display_name": "אפרים קציר, נאות פרס, רובע מערב חיפה, חיפה, נפת חיפה, מחוז חיפה, 3508508, ישראל",
+  "address": {
+    "road": "אפרים קציר",
+    "suburb": "נאות פרס",
+    "city_district": "רובע מערב חיפה",
+    "city": "חיפה",
+    "state_district": "נפת חיפה",
+    "state": "מחוז חיפה",
+    "ISO3166-2-lvl4": "IL-HA",
+    "postcode": "3508508",
+    "country": "ישראל",
+    "country_code": "il"
+  },
+  "boundingbox": [
+    "32.7811870",
+    "32.7832158",
+    "34.9674184",
+    "34.9680521"
+  ]
+}

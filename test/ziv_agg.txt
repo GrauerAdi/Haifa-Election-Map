@@ -1,0 +1,2 @@
+aggregate turnout_pct: 66.38115631691649
+color: #1a4b29ff

@@ -1,0 +1,25 @@
+[build_data] Results CSV filtered to Haifa: 424 rows
+[build_data] Detected 40 party columns
+[build_data] Locations XLSX filtered to Haifa: 424 rows
+[build_data] Merged results+locations: 424 rows
+[build_data] turnout_pct stats:
+count    424.000000
+mean      55.409387
+std       12.531965
+min       18.989547
+25%       45.927485
+50%       57.268304
+75%       64.955536
+max       81.443299
+Name: turnout_pct, dtype: float64
+[build_data] 134 unique addresses to resolve (out of 424 stations)
+[build_data] Geocoding done. 4 new lookups this run (130 served from cache).
+[build_data] 410/424 stations geocoded successfully (96.7%)
+[build_data] 14 failed geocodes written to C:\Users\adigr\OneDrive\Desktop\Projects\kalpi_geomap\data\processed\geocode_failures.csv
+[build_data] Loaded 76 neighborhood polygons
+[build_data] 410/410 stations matched to a neighborhood (100.0%)
+[build_data] 50/76 neighborhoods have at least one matched station
+[build_data] Wrote 410 stations to C:\Users\adigr\OneDrive\Desktop\Projects\kalpi_geomap\data\processed\stations.geojson
+[build_data] Wrote 76 neighborhoods to C:\Users\adigr\OneDrive\Desktop\Projects\kalpi_geomap\data\processed\neighborhoods_agg.geojson
+[build_data] Verified both outputs reload with matching row counts.
+[build_data] Done.

@@ -1,0 +1,194 @@
+STATUS: 200
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-15T09:07:01Z",
+    "timestamp_areas_base": "2026-08-14T21:38:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 184493490,
+  "center": {
+    "lat": 32.8006344,
+    "lon": 35.0121362
+  },
+  "nodes": [
+    1949899593,
+    1949899469,
+    1949899403,
+    1949899506,
+    1949899593
+  ],
+  "tags": {
+    "addr:housenumber": "66",
+    "addr:street": "הגיבורים",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 184493577,
+  "center": {
+    "lat": 32.8007617,
+    "lon": 35.0119526
+  },
+  "nodes": [
+    1949899675,
+    1949899595,
+    1949899530,
+    1949899626,
+    1949899675
+  ],
+  "tags": {
+    "addr:housenumber": "64א",
+    "addr:street": "הגיבורים",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 184493579,
+  "center": {
+    "lat": 32.8022034,
+    "lon": 35.0099051
+  },
+  "nodes": [
+    1949900123,
+    1949900106,
+    1949900068,
+    1949900074,
+    1949900123
+  ],
+  "tags": {
+    "addr:housenumber": "47",
+    "addr:street": "הגיבורים",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 184493723,
+  "center": {
+    "lat": 32.7999901,
+    "lon": 35.0129007
+  },
+  "nodes": [
+    1949899132,
+    1949899058,
+    1949898984,
+    1949899081,
+    1949899132
+  ],
+  "tags": {
+    "addr:housenumber": "76",
+    "addr:street": "הגיבורים",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 184493729,
+  "center": {
+    "lat": 32.8008507,
+    "lon": 35.0117700
+  },
+  "nodes": [
+    1949899700,
+    1949899670,
+    1949899624,
+    1949899672,
+    1949899700
+  ],
+  "tags": {
+    "addr:housenumber": "62",
+    "addr:street": "הגיבורים",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 184493749,
+  "center": {
+    "lat": 32.8009432,
+    "lon": 35.0116211
+  },
+  "nodes": [
+    1949899740,
+    1949899707,
+    1949899679,
+    1949899708,
+    1949899740
+  ],
+  "tags": {
+    "addr:housenumber": "60",
+    "addr:street": "הגיבורים",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 184493761,
+  "center": {
+    "lat": 32.7998723,
+    "lon": 35.0130387
+  },
+  "nodes": [
+    1949899069,
+    1949898977,
+    1949898884,
+    1949899015,
+    1949899069
+  ],
+  "tags": {
+    "addr:housenumber": "78",
+    "addr:street": "הגיבורים",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 184493780,
+  "center": {
+    "lat": 32.8018591,
+    "lon": 35.0107744
+  },
+  "nodes": [
+    1949900037,
+    1949899980,
+    1949899949,
+    1949900007,
+    1949900037
+  ],
+  "tags": {
+    "addr:housenumber": "51",
+    "addr:street": "הגיבורים",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 184493864,
+  "center": {
+    "lat": 32.8011189,
+    "lon": 35.0112667
+  },
+  "nodes": [
+    1949899802,
+    1949899768,
+    1949899745,
+    1949899780,
+    1949899802
+  ],
+  "tags": {
+    "addr:housenumber": "56",
+    "addr:street": "הגיבורים",
+    "building": "yes"
+  }
+}
+
+  ]
+}

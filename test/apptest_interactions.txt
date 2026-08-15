@@ -1,0 +1,4 @@
+after selecting party: exception=ElementList() errors=0
+after Stations view: exception=ElementList() errors=0
+after Neighborhoods view: exception=ElementList() errors=0
+after selecting Meretz: exception=ElementList() errors=0

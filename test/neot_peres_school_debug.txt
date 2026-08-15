@@ -1,0 +1,152 @@
+QUERY: בית ספר נאות פרס, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: בי"ס נאות פרס, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: נאות פרס, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 210802911,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 3180626187,
+    "lat": "32.7833183",
+    "lon": "34.9690860",
+    "class": "place",
+    "type": "suburb",
+    "place_rank": 19,
+    "importance": 0.22489365626900393,
+    "addresstype": "suburb",
+    "name": "נאות פרס",
+    "display_name": "נאות פרס, רובע מערב חיפה, חיפה, נפת חיפה, מחוז חיפה, 3508508, ישראל",
+    "address": {
+      "suburb": "נאות פרס",
+      "city_district": "רובע מערב חיפה",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "3508508",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.7633183",
+      "32.8033183",
+      "34.9490860",
+      "34.9890860"
+    ]
+  },
+  {
+    "place_id": 210880770,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 662062996,
+    "lat": "32.7851539",
+    "lon": "34.9672521",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "נאות פרס",
+    "display_name": "נאות פרס, רובע מערב חיפה, חיפה, נפת חיפה, מחוז חיפה, 3508508, ישראל",
+    "address": {
+      "road": "נאות פרס",
+      "suburb": "נאות פרס",
+      "city_district": "רובע מערב חיפה",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "3508508",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.7849692",
+      "32.7853109",
+      "34.9670489",
+      "34.9674553"
+    ]
+  }
+]
+
+QUERY: Neot Peres School, Haifa, Israel
+STATUS: 200
+[]
+
+QUERY: Neot Peres, Haifa, Israel
+STATUS: 200
+[
+  {
+    "place_id": 210355866,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 3180626187,
+    "lat": "32.7833183",
+    "lon": "34.9690860",
+    "class": "place",
+    "type": "suburb",
+    "place_rank": 19,
+    "importance": 0.22489365626900393,
+    "addresstype": "suburb",
+    "name": "נאות פרס",
+    "display_name": "נאות פרס, רובע מערב חיפה, חיפה, נפת חיפה, מחוז חיפה, 3508508, ישראל",
+    "address": {
+      "suburb": "נאות פרס",
+      "city_district": "רובע מערב חיפה",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "3508508",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.7633183",
+      "32.8033183",
+      "34.9490860",
+      "34.9890860"
+    ]
+  },
+  {
+    "place_id": 210420800,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 662062996,
+    "lat": "32.7851539",
+    "lon": "34.9672521",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "נאות פרס",
+    "display_name": "נאות פרס, רובע מערב חיפה, חיפה, נפת חיפה, מחוז חיפה, 3508508, ישראל",
+    "address": {
+      "road": "נאות פרס",
+      "suburb": "נאות פרס",
+      "city_district": "רובע מערב חיפה",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "3508508",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.7849692",
+      "32.7853109",
+      "34.9670489",
+      "34.9674553"
+    ]
+  }
+]
+

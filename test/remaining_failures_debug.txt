@@ -1,0 +1,290 @@
+QUERY: הגבורים,17, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: הגבורים 17, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: HaGiborim 17, Haifa, Israel
+STATUS: 200
+[
+  {
+    "place_id": 208025035,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 232370638,
+    "lat": "32.8010218",
+    "lon": "35.0117934",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "הגיבורים",
+    "display_name": "הגיבורים, תל עמל, רובע נווה שאנן - יזרעאליה, חיפה, נפת חיפה, מחוז חיפה, 3269841, ישראל",
+    "boundingbox": [
+      "32.8003884",
+      "32.8016312",
+      "35.0105751",
+      "35.0129990"
+    ]
+  },
+  {
+    "place_id": 210316823,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 229772106,
+    "lat": "32.8025253",
+    "lon": "35.0093389",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "הגיבורים",
+    "display_name": "הגיבורים, ואדי סאליב, רובע העיר התחתית, חיפה, נפת חיפה, מחוז חיפה, 3269841, ישראל",
+    "boundingbox": [
+      "32.8019891",
+      "32.8031851",
+      "35.0086836",
+      "35.0100973"
+    ]
+  },
+  {
+    "place_id": 208020180,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 62207327,
+    "lat": "32.8030324",
+    "lon": "35.0061455",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "הגיבורים",
+    "display_name": "הגיבורים, הדר הכרמל, רובע הדר, רובע העיר התחתית, חיפה, נפת חיפה, מחוז חיפה, 3269841, ישראל",
+    "boundingbox": [
+      "32.8027329",
+      "32.8033319",
+      "35.0056261",
+      "35.0066649"
+    ]
+  }
+]
+
+QUERY: שטרן יאיר,20, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: שטרן יאיר 20, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: יאיר שטרן 20, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: Yair Stern 20, Haifa, Israel
+STATUS: 200
+[
+  {
+    "place_id": 213334522,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 45138203,
+    "lat": "32.8263220",
+    "lon": "34.9642823",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "ירמיהו הלפרין",
+    "display_name": "ירמיהו הלפרין, עין הים, רובע מערב חיפה, חיפה, נפת חיפה, מחוז חיפה, 3570503, ישראל",
+    "boundingbox": [
+      "32.8245952",
+      "32.8280095",
+      "34.9632295",
+      "34.9643202"
+    ]
+  }
+]
+
+QUERY: כיכר ואצלב האוול, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: כיכר ואצלב הוול, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: Vaclav Havel Square, Haifa, Israel
+STATUS: 200
+[]
+
+QUERY: Vaclav Havel, Haifa, Israel
+STATUS: 200
+[]
+
+QUERY: גלאל אל דין,3, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: ג'לאל א-דין 3, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 211013949,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 54595159,
+    "lat": "32.8055569",
+    "lon": "34.9715098",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "ג'לאל א-דין",
+    "display_name": "ג'לאל א-דין, الكبابير, רובע הכרמל, חיפה, נפת חיפה, מחוז חיפה, 3542328, ישראל",
+    "boundingbox": [
+      "32.8048605",
+      "32.8060455",
+      "34.9710459",
+      "34.9721882"
+    ]
+  }
+]
+
+QUERY: ג'לאל אלדין 3, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: Jalal a-Din 3, Haifa, Israel
+STATUS: 200
+[
+  {
+    "place_id": 210240086,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 54595159,
+    "lat": "32.8055569",
+    "lon": "34.9715098",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "ג'לאל א-דין",
+    "display_name": "ג'לאל א-דין, الكبابير, רובע הכרמל, חיפה, נפת חיפה, מחוז חיפה, 3542328, ישראל",
+    "boundingbox": [
+      "32.8048605",
+      "32.8060455",
+      "34.9710459",
+      "34.9721882"
+    ]
+  }
+]
+
+QUERY: שד אבא חושי,15, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: שדרות אבא חושי 15, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: Abba Hushi 15, Haifa, Israel
+STATUS: 200
+[]
+
+QUERY: שד סיני,13, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: שדרות סיני 13, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: Sinai 13, Haifa, Israel
+STATUS: 200
+[
+  {
+    "place_id": 218391442,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 196299350,
+    "lat": "32.7874200",
+    "lon": "34.9872532",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "סיני",
+    "display_name": "סיני, אחוזת שמואל, אחוזה, רובע רמות הכרמל, חיפה, נפת חיפה, מחוז חיפה, 3434120, ישראל",
+    "boundingbox": [
+      "32.7870378",
+      "32.7889051",
+      "34.9856192",
+      "34.9883796"
+    ]
+  },
+  {
+    "place_id": 209037477,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 67486545,
+    "lat": "32.7754025",
+    "lon": "35.0321306",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05338733272297242,
+    "addresstype": "road",
+    "name": "סיני",
+    "display_name": "סיני, בן דור, נשר, נפת חיפה, מחוז חיפה, 3688520, ישראל",
+    "boundingbox": [
+      "32.7750317",
+      "32.7757924",
+      "35.0312365",
+      "35.0330336"
+    ]
+  },
+  {
+    "place_id": 212778731,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 226739852,
+    "lat": "32.7589928",
+    "lon": "34.9735877",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.053386939040207484,
+    "addresstype": "road",
+    "name": "סיני",
+    "display_name": "סיני, טירת כרמל, טירת הכרמל, נפת חיפה, מחוז חיפה, 3955022, ישראל",
+    "boundingbox": [
+      "32.7589036",
+      "32.7590837",
+      "34.9727594",
+      "34.9744152"
+    ]
+  }
+]
+
+QUERY: שד הרא"ה,10, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: שדרות הראה 10, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: HaRaayah 10, Haifa, Israel
+STATUS: 200
+[]
+

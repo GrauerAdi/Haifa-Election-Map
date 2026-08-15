@@ -1,0 +1,5 @@
+המימוני,2, חיפה, Israel -> {'status': 'failed'}
+גלאל אל דין,3, חיפה, Israel -> {'status': 'failed'}
+שד אבא חושי,15, חיפה, Israel -> {'status': 'failed'}
+שד סיני,13, חיפה, Israel -> {'status': 'failed'}
+total removed: 4

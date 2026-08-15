@@ -1,0 +1,9 @@
+exception: ElementList()
+num markdown elements: 2
+title(s): ['מפת הצבעה בחירות 2022 - חיפה']
+caption(s): ['Haifa Election Turnout Map — 2022 Knesset Election (25th Knesset)']
+sidebar radio: [('תצוגה (View)', ['Stations', 'Neighborhoods', 'Both'], 'Both')]
+sidebar selectbox: [('צביעה לפי (Color by)', 41, 'אחוז הצבעה (Turnout %)')]
+num expanders: 1
+num warnings: 1
+num errors: 0

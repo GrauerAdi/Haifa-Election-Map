@@ -1,0 +1,52 @@
+FREE (no שד prefix): אבא חושי 15, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 210418475,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 172584790,
+    "lat": "32.7782417",
+    "lon": "34.9956567",
+    "class": "building",
+    "type": "yes",
+    "place_rank": 30,
+    "importance": 0.52889458754689,
+    "addresstype": "building",
+    "name": "האוניברסיטה הפתוחה",
+    "display_name": "האוניברסיטה הפתוחה, 15, אבא חושי, גבעת דאונס, רובע רמות הכרמל, חיפה, נפת חיפה, מחוז חיפה, 3491140, ישראל",
+    "boundingbox": [
+      "32.7780135",
+      "32.7784744",
+      "34.9952170",
+      "34.9959059"
+    ]
+  }
+]
+
+FREE (no שד prefix): סיני 13, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 209545614,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 196299350,
+    "lat": "32.7874200",
+    "lon": "34.9872532",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "סיני",
+    "display_name": "סיני, אחוזת שמואל, אחוזה, רובע רמות הכרמל, חיפה, נפת חיפה, מחוז חיפה, 3434120, ישראל",
+    "boundingbox": [
+      "32.7870378",
+      "32.7889051",
+      "34.9856192",
+      "34.9883796"
+    ]
+  }
+]
+

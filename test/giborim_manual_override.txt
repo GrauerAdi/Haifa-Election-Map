@@ -1,0 +1,2 @@
+old (nondeterministic live result): {'lat': 32.8048053, 'lon': 35.0058095, 'status': 'ok'}
+new (verified via Overpass addr-tagged buildings 47-78): {'lat': 32.7997052, 'lon': 35.0146609, 'status': 'ok'}

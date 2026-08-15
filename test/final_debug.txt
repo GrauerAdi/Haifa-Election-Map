@@ -1,0 +1,125 @@
+STRUCT: street=המימוני 2 city=חיפה
+STATUS: 200
+[]
+
+STRUCT: street=גלאל אל דין 3 city=חיפה
+STATUS: 200
+[]
+
+STRUCT: street=יאיר שטרן 20 city=חיפה
+STATUS: 200
+[]
+
+STRUCT: street=הרא"ה 10 city=חיפה
+STATUS: 200
+[
+  {
+    "place_id": 209874153,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 308339647,
+    "lat": "32.7963906",
+    "lon": "35.0003979",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "האר\"י",
+    "display_name": "האר\"י, רמת הדר, רובע הדר, חיפה, נפת חיפה, מחוז חיפה, 3269702, ישראל",
+    "address": {
+      "road": "האר\"י",
+      "neighbourhood": "רמת הדר",
+      "suburb": "רובע הדר",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "3269702",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.7963714",
+      "32.7972527",
+      "34.9984770",
+      "35.0009756"
+    ]
+  },
+  {
+    "place_id": 209887506,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1410099859,
+    "lat": "32.7970051",
+    "lon": "34.9992092",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "האר\"י",
+    "display_name": "האר\"י, רמת הדר, רובע הדר, חיפה, נפת חיפה, מחוז חיפה, 3463626, ישראל",
+    "address": {
+      "road": "האר\"י",
+      "neighbourhood": "רמת הדר",
+      "suburb": "רובע הדר",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "3463626",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.7968737",
+      "32.7972671",
+      "34.9990067",
+      "34.9995226"
+    ]
+  }
+]
+
+FREE: הראיה 10, חיפה, Israel
+STATUS: 200
+[]
+
+FREE: הראי"ה 10, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 208026950,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 309011202,
+    "lat": "32.8373488",
+    "lon": "35.0688172",
+    "class": "highway",
+    "type": "footway",
+    "place_rank": 27,
+    "importance": 0.04005306553749904,
+    "addresstype": "road",
+    "name": "נתיב הרי\"ף",
+    "display_name": "נתיב הרי\"ף, קרית חיים, רובע קריית חיים - קריית שמואל, חיפה, נפת חיפה, מחוז חיפה, 2905344, ישראל",
+    "boundingbox": [
+      "32.8372792",
+      "32.8373787",
+      "35.0678874",
+      "35.0697260"
+    ]
+  }
+]
+
+FREE: כיכר ואצלב הוול, חיפה
+STATUS: 200
+[]
+
+FREE: ואצלב הוול, חיפה
+STATUS: 200
+[]
+
+FREE: ואצלב האוול כיכר, חיפה
+STATUS: 200
+[]
+

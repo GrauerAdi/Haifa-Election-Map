@@ -1,0 +1,60 @@
+STATUS: 200
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-15T09:16:06Z",
+    "timestamp_areas_base": "2026-08-14T21:38:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1803030474,
+  "lat": 32.8275090,
+  "lon": 34.9638710,
+  "tags": {
+    "bus": "yes",
+    "gtfs:stop_code:IL-MOT": "41096",
+    "gtfs:stop_id:IL-MOT": "1979",
+    "gtfs:stop_name:IL-MOT": "העוגן/יאיר שטרן",
+    "highway": "bus_stop",
+    "name": "העוגן/יאיר שטרן",
+    "name:ar": "هعوچِن/ يئير شتيرن",
+    "name:en": "HaOgen/Ya'ir Stern",
+    "name:he": "העוגן/יאיר שטרן",
+    "object:city": "חיפה",
+    "object:housenumber": "13",
+    "object:street": "העוגן",
+    "public_transport": "platform",
+    "ref": "41096",
+    "route_ref": "3;31;51א;112"
+  }
+},
+{
+  "type": "node",
+  "id": 1803030475,
+  "lat": 32.8278590,
+  "lon": 34.9637880,
+  "tags": {
+    "bus": "yes",
+    "gtfs:stop_code:IL-MOT": "41097",
+    "gtfs:stop_id:IL-MOT": "1980",
+    "gtfs:stop_name:IL-MOT": "העוגן/יאיר שטרן",
+    "highway": "bus_stop",
+    "name": "העוגן/יאיר שטרן",
+    "name:ar": "هعوچِن/ يئير شتيرن",
+    "name:en": "HaOgen/Ya'ir Stern",
+    "name:he": "העוגן/יאיר שטרן",
+    "object:city": "חיפה",
+    "object:housenumber": "6",
+    "object:street": "העוגן",
+    "public_transport": "platform",
+    "ref": "41097",
+    "route_ref": "3;31;51;112"
+  }
+}
+
+  ]
+}

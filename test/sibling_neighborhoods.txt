@@ -1,0 +1,4 @@
+הוד הכרמל -> n_stations=12.0
+רמת גולדה -> n_stations=3.0
+רמת אלמוגי -> n_stations=3.0
+סביוני הכרמל -> n_stations=nan

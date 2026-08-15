@@ -1,0 +1,2 @@
+old: {'status': 'failed'}
+new (verified via Overpass: only amenity=school within 1.5km of the Neot Peres suburb node, matching מקום קלפי venue name בי"ס נאות פרס): {'lat': 32.7822014, 'lon': 34.9677353, 'status': 'ok'}

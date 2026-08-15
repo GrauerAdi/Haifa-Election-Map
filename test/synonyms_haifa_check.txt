@@ -1,0 +1,46 @@
+Total Haifa street rows: 4450
+
+--- rows containing 'אינשטיין' ---
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '608', 'street_name': 'אינשטיין אלברט', 'street_name_status': 'official', 'official_code': '608'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '10655', 'street_name': 'אינשטיין', 'street_name_status': 'synonym of 608', 'official_code': '608'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '10656', 'street_name': 'אלברט אינשטיין', 'street_name_status': 'synonym of 608', 'official_code': '608'}
+
+--- rows containing 'מימוני' ---
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '922', 'street_name': 'המימוני', 'street_name_status': 'official', 'official_code': '922'}
+
+--- rows containing 'אבא חושי' ---
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '498', 'street_name': 'מעון אבא חושי', 'street_name_status': 'official', 'official_code': '498'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '10398', 'street_name': 'מרכז אבא חושי', 'street_name_status': 'synonym of 498', 'official_code': '498'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '10399', 'street_name': 'אבא חושי מעון', 'street_name_status': 'synonym of 498', 'official_code': '498'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '602', 'street_name': 'שד אבא חושי', 'street_name_status': 'official', 'official_code': '602'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '10627', 'street_name': 'אבא חושי שדרות', 'street_name_status': 'synonym of 602', 'official_code': '602'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '10629', 'street_name': 'שדרות אבא חושי', 'street_name_status': 'synonym of 602', 'official_code': '602'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '10632', 'street_name': 'אבא חושי שד', 'street_name_status': 'synonym of 602', 'official_code': '602'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '10633', 'street_name': 'אבא חושי דרך', 'street_name_status': 'synonym of 602', 'official_code': '602'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '10634', 'street_name': 'אבא חושי', 'street_name_status': 'synonym of 602', 'official_code': '602'}
+
+--- rows containing 'ציונות' ---
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '811', 'street_name': 'שד הציונות', 'street_name_status': 'official', 'official_code': '811'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11014', 'street_name': 'הציונות שד', 'street_name_status': 'synonym of 811', 'official_code': '811'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11015', 'street_name': 'הציונות שדרות', 'street_name_status': 'synonym of 811', 'official_code': '811'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11016', 'street_name': 'שדרות הציונות', 'street_name_status': 'synonym of 811', 'official_code': '811'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11018', 'street_name': 'הציונות', 'street_name_status': 'synonym of 811', 'official_code': '811'}
+
+--- rows containing 'פרומר' ---
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '1508', 'street_name': 'פרומר דב', 'street_name_status': 'official', 'official_code': '1508'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11991', 'street_name': 'פרומר', 'street_name_status': 'synonym of 1508', 'official_code': '1508'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11992', 'street_name': 'דב פרומר', 'street_name_status': 'synonym of 1508', 'official_code': '1508'}
+
+--- rows containing 'גולומב' ---
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '816', 'street_name': 'שד גולומב אליהו', 'street_name_status': 'official', 'official_code': '816'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11029', 'street_name': 'גולומב פנמי', 'street_name_status': 'synonym of 816', 'official_code': '816'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11030', 'street_name': 'גולומב אליהו', 'street_name_status': 'synonym of 816', 'official_code': '816'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11031', 'street_name': 'גולומב אלירש', 'street_name_status': 'synonym of 816', 'official_code': '816'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11032', 'street_name': 'גולומב שד', 'street_name_status': 'synonym of 816', 'official_code': '816'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11033', 'street_name': 'שדרות גולומב', 'street_name_status': 'synonym of 816', 'official_code': '816'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11034', 'street_name': 'גולומבאליהו', 'street_name_status': 'synonym of 816', 'official_code': '816'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11037', 'street_name': 'שד גולומב', 'street_name_status': 'synonym of 816', 'official_code': '816'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11038', 'street_name': 'גולומב', 'street_name_status': 'synonym of 816', 'official_code': '816'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11039', 'street_name': 'אליהו גולומב', 'street_name_status': 'synonym of 816', 'official_code': '816'}
+{'region_code': '31', 'region_name': 'חיפה', 'city_code': '4000', 'city_name': 'חיפה', 'street_code': '11040', 'street_name': 'גולומב שדרות', 'street_name_status': 'synonym of 816', 'official_code': '816'}
+

@@ -1,0 +1,150 @@
+QUERY: שד הרוא"ה,10, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: שד הרוא"ה 10, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY: הרוא"ה 10, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 209029658,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 184751186,
+    "lat": "32.8328579",
+    "lon": "35.0660485",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "שדרות הרוא\"ה",
+    "display_name": "שדרות הרוא\"ה, קרית חיים, רובע קריית חיים - קריית שמואל, חיפה, נפת חיפה, מחוז חיפה, 2628858, ישראל",
+    "address": {
+      "road": "שדרות הרוא\"ה",
+      "suburb": "קרית חיים",
+      "city_district": "רובע קריית חיים - קריית שמואל",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "2628858",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.8317012",
+      "32.8340060",
+      "35.0655377",
+      "35.0666007"
+    ]
+  },
+  {
+    "place_id": 209029182,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 306788184,
+    "lat": "32.8350107",
+    "lon": "35.0675309",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "שדרות הרוא\"ה",
+    "display_name": "שדרות הרוא\"ה, קרית חיים, רובע קריית חיים - קריית שמואל, חיפה, נפת חיפה, מחוז חיפה, 2631437, ישראל",
+    "address": {
+      "road": "שדרות הרוא\"ה",
+      "suburb": "קרית חיים",
+      "city_district": "רובע קריית חיים - קריית שמואל",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "2631437",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.8342468",
+      "32.8357435",
+      "35.0668703",
+      "35.0682248"
+    ]
+  }
+]
+
+QUERY: הרוא"ה, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 211182346,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 184751186,
+    "lat": "32.8328579",
+    "lon": "35.0660485",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "שדרות הרוא\"ה",
+    "display_name": "שדרות הרוא\"ה, קרית חיים, רובע קריית חיים - קריית שמואל, חיפה, נפת חיפה, מחוז חיפה, 2628858, ישראל",
+    "address": {
+      "road": "שדרות הרוא\"ה",
+      "suburb": "קרית חיים",
+      "city_district": "רובע קריית חיים - קריית שמואל",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "2628858",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.8317012",
+      "32.8340060",
+      "35.0655377",
+      "35.0666007"
+    ]
+  },
+  {
+    "place_id": 210754003,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 306788184,
+    "lat": "32.8350107",
+    "lon": "35.0675309",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "שדרות הרוא\"ה",
+    "display_name": "שדרות הרוא\"ה, קרית חיים, רובע קריית חיים - קריית שמואל, חיפה, נפת חיפה, מחוז חיפה, 2631437, ישראל",
+    "address": {
+      "road": "שדרות הרוא\"ה",
+      "suburb": "קרית חיים",
+      "city_district": "רובע קריית חיים - קריית שמואל",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "2631437",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.8342468",
+      "32.8357435",
+      "35.0668703",
+      "35.0682248"
+    ]
+  }
+]
+

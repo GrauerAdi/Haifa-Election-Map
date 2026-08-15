@@ -1,0 +1,2 @@
+bindTooltip count: 0
+bindPopup count: 120

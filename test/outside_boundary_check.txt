@@ -1,0 +1,6 @@
+4 cached OK entries fall outside Haifa boundary (+300m buffer)
+
+בית"ר,8, חיפה, Israel -> (32.8134031,35.125375) dist_from_boundary_deg=0.04643
+בן צבי יצחק,14, חיפה, Israel -> (32.7523214,34.9716721) dist_from_boundary_deg=0.01196
+בן צבי יצחק,6, חיפה, Israel -> (32.7523214,34.9716721) dist_from_boundary_deg=0.01196
+שד אבא חושי,15, חיפה, Israel -> (32.8287592,35.0880926) dist_from_boundary_deg=0.01013

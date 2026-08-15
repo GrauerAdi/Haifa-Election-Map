@@ -1,0 +1,4 @@
+L.circleMarker(
+                [32.8167412, 34.9977514],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#871826ff", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_dd35b1eb4dcbcb4f3388

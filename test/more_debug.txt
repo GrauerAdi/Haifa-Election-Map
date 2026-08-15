@@ -1,0 +1,512 @@
+QUERY(free): סיני, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 209890733,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 196299350,
+    "lat": "32.7874200",
+    "lon": "34.9872532",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "סיני",
+    "display_name": "סיני, אחוזת שמואל, אחוזה, רובע רמות הכרמל, חיפה, נפת חיפה, מחוז חיפה, 3434120, ישראל",
+    "boundingbox": [
+      "32.7870378",
+      "32.7889051",
+      "34.9856192",
+      "34.9883796"
+    ]
+  }
+]
+
+QUERY(free): אבא חושי, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 211038359,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 196193166,
+    "lat": "32.7659410",
+    "lon": "35.0125935",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "אבא חושי",
+    "display_name": "אבא חושי, הוד הכרמל, דניה, רובע רמות הכרמל, חיפה, נפת חיפה, מחוז חיפה, 3498825, ישראל",
+    "boundingbox": [
+      "32.7650593",
+      "32.7670410",
+      "35.0114128",
+      "35.0139516"
+    ]
+  },
+  {
+    "place_id": 210577366,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 706884407,
+    "lat": "32.7759750",
+    "lon": "35.0004863",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "אבא חושי",
+    "display_name": "אבא חושי, רמת גולדה, רובע רמות הכרמל, חיפה, נפת חיפה, מחוז חיפה, 3220518, ישראל",
+    "boundingbox": [
+      "32.7751433",
+      "32.7770977",
+      "34.9994920",
+      "35.0017681"
+    ]
+  },
+  {
+    "place_id": 211098203,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 706874472,
+    "lat": "32.7697441",
+    "lon": "35.0070670",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "אבא חושי",
+    "display_name": "אבא חושי, סביוני הכרמל, רובע רמות הכרמל, חיפה, נפת חיפה, מחוז חיפה, 3220518, ישראל",
+    "boundingbox": [
+      "32.7695491",
+      "32.7699504",
+      "35.0070481",
+      "35.0071366"
+    ]
+  },
+  {
+    "place_id": 211122617,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 706884409,
+    "lat": "32.7772194",
+    "lon": "34.9995424",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "אבא חושי",
+    "display_name": "אבא חושי, גבעת דאונס, רובע רמות הכרמל, חיפה, נפת חיפה, מחוז חיפה, 3292234, ישראל",
+    "boundingbox": [
+      "32.7771568",
+      "32.7772778",
+      "34.9994877",
+      "34.9995921"
+    ]
+  }
+]
+
+QUERY(free): הרא"ה, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY(free): יאיר שטרן 20, חיפה, Israel
+STATUS: 200
+[]
+
+QUERY(free): יאיר שטרן, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 208977730,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 1803030474,
+    "lat": "32.8275090",
+    "lon": "34.9638710",
+    "class": "highway",
+    "type": "bus_stop",
+    "place_rank": 30,
+    "importance": 7.358739604786781e-05,
+    "addresstype": "highway",
+    "name": "העוגן/יאיר שטרן",
+    "display_name": "העוגן/יאיר שטרן, העוגן, עין הים, רובע מערב חיפה, חיפה, נפת חיפה, מחוז חיפה, 3570503, ישראל",
+    "boundingbox": [
+      "32.8274590",
+      "32.8275590",
+      "34.9638210",
+      "34.9639210"
+    ]
+  }
+]
+
+QUERY(free): הגיבורים 17, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 210410125,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 305267706,
+    "lat": "32.7997052",
+    "lon": "35.0146609",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "הגיבורים",
+    "display_name": "הגיבורים, תל עמל, רובע נווה שאנן - יזרעאליה, חיפה, נפת חיפה, מחוז חיפה, 3269841, ישראל",
+    "boundingbox": [
+      "32.7992666",
+      "32.8003005",
+      "35.0131591",
+      "35.0162218"
+    ]
+  },
+  {
+    "place_id": 210316823,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 229772106,
+    "lat": "32.8025253",
+    "lon": "35.0093389",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "הגיבורים",
+    "display_name": "הגיבורים, ואדי סאליב, רובע העיר התחתית, חיפה, נפת חיפה, מחוז חיפה, 3269841, ישראל",
+    "boundingbox": [
+      "32.8019891",
+      "32.8031851",
+      "35.0086836",
+      "35.0100973"
+    ]
+  },
+  {
+    "place_id": 208020180,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 62207327,
+    "lat": "32.8030324",
+    "lon": "35.0061455",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "הגיבורים",
+    "display_name": "הגיבורים, הדר הכרמל, רובע הדר, רובע העיר התחתית, חיפה, נפת חיפה, מחוז חיפה, 3269841, ישראל",
+    "boundingbox": [
+      "32.8027329",
+      "32.8033319",
+      "35.0056261",
+      "35.0066649"
+    ]
+  },
+  {
+    "place_id": 210105299,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 223430110,
+    "lat": "32.8040138",
+    "lon": "35.0054100",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "הגיבורים",
+    "display_name": "הגיבורים, הדר הכרמל, רובע הדר, חיפה, נפת חיפה, מחוז חיפה, 3312404, ישראל",
+    "boundingbox": [
+      "32.8033319",
+      "32.8046000",
+      "35.0053745",
+      "35.0058016"
+    ]
+  },
+  {
+    "place_id": 210359600,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1123351153,
+    "lat": "32.8048053",
+    "lon": "35.0058095",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "הגיבורים",
+    "display_name": "הגיבורים, הדר הכרמל, רובע הדר, רובע העיר התחתית, חיפה, נפת חיפה, מחוז חיפה, 3312404, ישראל",
+    "boundingbox": [
+      "32.8047711",
+      "32.8048057",
+      "35.0055723",
+      "35.0060514"
+    ]
+  }
+]
+
+QUERY(struct): street=הגיבורים 17 city=חיפה
+STATUS: 200
+[
+  {
+    "place_id": 210447290,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 525592358,
+    "lat": "32.8011508",
+    "lon": "35.0117781",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "הגיבורים",
+    "display_name": "הגיבורים, ואדי סאליב, רובע העיר התחתית, חיפה, נפת חיפה, מחוז חיפה, 3269841, ישראל",
+    "address": {
+      "road": "הגיבורים",
+      "suburb": "ואדי סאליב",
+      "city_district": "רובע העיר התחתית",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "3269841",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.8004798",
+      "32.8017974",
+      "35.0104759",
+      "35.0130686"
+    ]
+  },
+  {
+    "place_id": 210410125,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 305267706,
+    "lat": "32.7997052",
+    "lon": "35.0146609",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "הגיבורים",
+    "display_name": "הגיבורים, תל עמל, רובע נווה שאנן - יזרעאליה, חיפה, נפת חיפה, מחוז חיפה, 3269841, ישראל",
+    "address": {
+      "road": "הגיבורים",
+      "suburb": "תל עמל",
+      "city_district": "רובע נווה שאנן - יזרעאליה",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "3269841",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.7992666",
+      "32.8003005",
+      "35.0131591",
+      "35.0162218"
+    ]
+  },
+  {
+    "place_id": 208089130,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 708426004,
+    "lat": "32.8029537",
+    "lon": "35.0080100",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "הגיבורים",
+    "display_name": "הגיבורים, חליסה, الحليصة, רובע נווה שאנן - יזרעאליה, חיפה, נפת חיפה, מחוז חיפה, 3269841, ישראל",
+    "address": {
+      "road": "הגיבורים",
+      "suburb": "חליסה",
+      "city_district": "רובע נווה שאנן - יזרעאליה",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "3269841",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.8028517",
+      "32.8029944",
+      "35.0076822",
+      "35.0083504"
+    ]
+  }
+]
+
+QUERY(struct): street=סיני 13 city=חיפה
+STATUS: 200
+[
+  {
+    "place_id": 209545614,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 196299350,
+    "lat": "32.7874200",
+    "lon": "34.9872532",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "סיני",
+    "display_name": "סיני, אחוזת שמואל, אחוזה, רובע רמות הכרמל, חיפה, נפת חיפה, מחוז חיפה, 3434120, ישראל",
+    "address": {
+      "road": "סיני",
+      "suburb": "אחוזת שמואל",
+      "city_district": "רובע רמות הכרמל",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "3434120",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.7870378",
+      "32.7889051",
+      "34.9856192",
+      "34.9883796"
+    ]
+  }
+]
+
+QUERY(struct): street=אבא חושי 15 city=חיפה
+STATUS: 200
+[
+  {
+    "place_id": 210374773,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 172584790,
+    "lat": "32.7782417",
+    "lon": "34.9956567",
+    "class": "building",
+    "type": "yes",
+    "place_rank": 30,
+    "importance": 0.52889458754689,
+    "addresstype": "building",
+    "name": "האוניברסיטה הפתוחה",
+    "display_name": "האוניברסיטה הפתוחה, 15, אבא חושי, גבעת דאונס, רובע רמות הכרמל, חיפה, נפת חיפה, מחוז חיפה, 3491140, ישראל",
+    "address": {
+      "building": "האוניברסיטה הפתוחה",
+      "house_number": "15",
+      "road": "אבא חושי",
+      "suburb": "גבעת דאונס",
+      "city_district": "רובע רמות הכרמל",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "3491140",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.7780135",
+      "32.7784744",
+      "34.9952170",
+      "34.9959059"
+    ]
+  }
+]
+
+QUERY(struct): street=הרא"ה 10 city=חיפה
+STATUS: 200
+[
+  {
+    "place_id": 209874153,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 308339647,
+    "lat": "32.7963906",
+    "lon": "35.0003979",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "האר\"י",
+    "display_name": "האר\"י, רמת הדר, רובע הדר, חיפה, נפת חיפה, מחוז חיפה, 3269702, ישראל",
+    "address": {
+      "road": "האר\"י",
+      "neighbourhood": "רמת הדר",
+      "suburb": "רובע הדר",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "3269702",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.7963714",
+      "32.7972527",
+      "34.9984770",
+      "35.0009756"
+    ]
+  },
+  {
+    "place_id": 209887506,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1410099859,
+    "lat": "32.7970051",
+    "lon": "34.9992092",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "האר\"י",
+    "display_name": "האר\"י, רמת הדר, רובע הדר, חיפה, נפת חיפה, מחוז חיפה, 3463626, ישראל",
+    "address": {
+      "road": "האר\"י",
+      "neighbourhood": "רמת הדר",
+      "suburb": "רובע הדר",
+      "city": "חיפה",
+      "state_district": "נפת חיפה",
+      "state": "מחוז חיפה",
+      "ISO3166-2-lvl4": "IL-HA",
+      "postcode": "3463626",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "32.7968737",
+      "32.7972671",
+      "34.9990067",
+      "34.9995226"
+    ]
+  }
+]
+

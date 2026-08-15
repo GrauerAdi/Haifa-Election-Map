@@ -1,0 +1,2 @@
+old: {'status': 'failed'}
+new (verified via Overpass bus-stop intersection nodes for HaOgen/Yair Stern): {'lat': 32.827684, 'lon': 34.9638295, 'status': 'ok'}

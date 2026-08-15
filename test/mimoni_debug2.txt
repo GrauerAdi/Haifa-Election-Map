@@ -1,0 +1,52 @@
+QUERY: המיימוני 2, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 209893583,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 32928495,
+    "lat": "32.8032711",
+    "lon": "34.9968374",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "המיימוני",
+    "display_name": "המיימוני, רמת הדר, רובע הדר, חיפה, נפת חיפה, מחוז חיפה, 3463626, ישראל",
+    "boundingbox": [
+      "32.8029465",
+      "32.8035841",
+      "34.9962789",
+      "34.9973892"
+    ]
+  }
+]
+
+QUERY: המיימוני,2, חיפה, Israel
+STATUS: 200
+[
+  {
+    "place_id": 209893583,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 32928495,
+    "lat": "32.8032711",
+    "lon": "34.9968374",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05340692072938121,
+    "addresstype": "road",
+    "name": "המיימוני",
+    "display_name": "המיימוני, רמת הדר, רובע הדר, חיפה, נפת חיפה, מחוז חיפה, 3463626, ישראל",
+    "boundingbox": [
+      "32.8029465",
+      "32.8035841",
+      "34.9962789",
+      "34.9973892"
+    ]
+  }
+]
+

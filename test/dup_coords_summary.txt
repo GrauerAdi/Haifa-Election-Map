@@ -1,0 +1,5 @@
+total stations: 397
+unique coordinates: 119
+coordinates shared by >1 station: 107
+max stations sharing one coordinate: 11
+total stations affected by overlap: 385

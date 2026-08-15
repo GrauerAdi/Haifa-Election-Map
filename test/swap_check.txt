@@ -1,0 +1,8 @@
+total stations: 397
+unique marker groups: 119
+L.circleMarker count in html: 119
+kalpiSwap function present: True
+kalpiSwap occurrences (script def, should be 1): 1
+onclick="kalpiSwap count (button calls): 214
+זיו group found: 1
+idxs in זיו group: [338, 339, 340]

@@ -1,0 +1,59 @@
+--- 'בודנהיימר' ---
+בודנהיימר מקס ד"ר | official
+בודנהיימר | synonym of 787
+ד"ר בודנהיימר מקס | synonym of 787
+ד"ר מקס בודנהיימר | synonym of 787
+
+--- 'שוויצר' ---
+שוויצר אלברט ד"ר | official
+שוויצר | synonym of 490
+אלברט שוויצר | synonym of 490
+שוויצר אלברט | synonym of 490
+ד"ר שוויצר אלברט | synonym of 490
+
+--- 'רבין אסתר' ---
+רבין אסתר ד"ר | official
+רבין אסתר | synonym of 1159
+רבין אסתר דר | synonym of 1159
+ד"ר רבין אסתר | synonym of 1159
+
+--- 'הראה' ---
+הראה ישיב ע | synonym of 141
+שד הראה | synonym of 141
+הראה שד | synonym of 141
+הראה | synonym of 141
+שדרות הראה | synonym of 141
+הראה שדרות | synonym of 141
+
+--- 'גלאל' ---
+גלאל אל דין | official
+
+--- 'קריית ספר' ---
+קריית ספר | official
+
+--- 'הקבוצים' ---
+הקבוצים | official
+
+--- 'דגניה' ---
+שד דגניה | official
+דגניה שד | synonym of 110
+דגניה | synonym of 110
+דגניה שדרות | synonym of 110
+שדרות דגניה | synonym of 110
+מד דגניה | synonym of 829
+דגניה מד | synonym of 829
+
+--- 'ואצלב' ---
+כיכר ואצלב האוול | official
+ככר ואצלב האוול | synonym of 6117
+כיכר האוול ואצלב | synonym of 6117
+ואצלב האוול | synonym of 6117
+
+--- 'הגבורים' ---
+הגבורים | official
+סמ הגבורים | synonym of 303
+שדרות הגבורים | synonym of 303
+שד הגבורים | synonym of 303
+הגבורים שד | synonym of 303
+הגבורים שדרות | synonym of 303
+

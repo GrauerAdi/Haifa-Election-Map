@@ -1,0 +1,8 @@
+ENCODING: utf-8-sig
+['region_code', 'region_name', 'city_code', 'city_name', 'street_code', 'street_name', 'street_name_status', 'official_code']
+['31', 'חיפה', '4000', 'חיפה', '101', 'כברי', 'official', '101']
+['31', 'חיפה', '4000', 'חיפה', '102', 'רח סא', 'official', '102']
+['31', 'חיפה', '4000', 'חיפה', '9521', 'רח סא ק חיים', 'synonym of 102', '102']
+['31', 'חיפה', '4000', 'חיפה', '103', 'בן עמי', 'official', '103']
+['31', 'חיפה', '4000', 'חיפה', '104', 'רח סג', 'official', '104']
+

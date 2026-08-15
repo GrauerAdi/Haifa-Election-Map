@@ -1,0 +1,79 @@
+QUERY: שערי תורה חיפה
+[]
+
+QUERY: שערי תורה, הגיבורים, חיפה
+[]
+
+QUERY: שערי תורה
+[
+  {
+    "place_id": 47853315,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 36852854,
+    "lat": "31.7649433",
+    "lon": "35.1830997",
+    "class": "highway",
+    "type": "residential",
+    "place_rank": 26,
+    "importance": 0.05341538796063169,
+    "addresstype": "road",
+    "name": "שערי תורה",
+    "display_name": "שערי תורה, בית וגן, ירושלים | القدس, נפת ירושלים, מחוז ירושלים, 9768112, ישראל",
+    "address": {
+      "road": "שערי תורה",
+      "suburb": "בית וגן",
+      "city": "ירושלים | القدس",
+      "state_district": "נפת ירושלים",
+      "state": "מחוז ירושלים",
+      "ISO3166-2-lvl4": "IL-JM",
+      "postcode": "9768112",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "31.7640232",
+      "31.7664678",
+      "35.1827126",
+      "35.1842093"
+    ]
+  },
+  {
+    "place_id": 48121737,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 289808357,
+    "lat": "31.8399646",
+    "lon": "35.2492271",
+    "class": "amenity",
+    "type": "place_of_worship",
+    "place_rank": 30,
+    "importance": 5.276951247420489e-05,
+    "addresstype": "amenity",
+    "name": "שערי תורה",
+    "display_name": "שערי תורה, זווין, נוה יעקב, פסגת זאב, ירושלים | القدس, נפת ירושלים, מחוז ירושלים, 9752059, ישראל",
+    "address": {
+      "amenity": "שערי תורה",
+      "road": "זווין",
+      "neighbourhood": "נוה יעקב",
+      "suburb": "פסגת זאב",
+      "city": "ירושלים | القدس",
+      "state_district": "נפת ירושלים",
+      "state": "מחוז ירושלים",
+      "ISO3166-2-lvl4": "IL-JM",
+      "postcode": "9752059",
+      "country": "ישראל",
+      "country_code": "il"
+    },
+    "boundingbox": [
+      "31.8398631",
+      "31.8400847",
+      "35.2491160",
+      "35.2493487"
+    ]
+  }
+]
+
+QUERY: תלמוד תורה שערי תורה חיפה
+[]
+

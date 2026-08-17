@@ -1,0 +1,7 @@
+CSV Haifa rows: 424, unique קלפי: 424
+XLSX Haifa rows: 424, unique סמל קלפי (rounded): 424
+keys in CSV not in XLSX: 175
+keys in XLSX not in CSV: 175
+Spot check קלפי=200: CSV rows=1, XLSX rows=1
+CSV: בזב=611 מצביעים=345 כשרים=345
+XLSX: כתובת=הצלפים,5  מקום=גן ילדים רוממה כלנית

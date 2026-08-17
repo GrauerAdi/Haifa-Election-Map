@@ -1,0 +1,13 @@
+Total stations: 424
+Duplicate קלפי values: 0
+Party columns detected: 40
+turnout_pct max diff from מצביעים/בזב*100: 7.105427357601002e-15
+Max party pct diff from votes/כשרים*100 (any col): 7.105427357601002e-15 (col=פה)
+sum(party votes) vs כשרים -- max abs diff: 0, rows with diff>0: 0
+worst rows (index): {423: 0, 0: 0, 1: 0, 2: 0, 3: 0}
+sum(party_pct) vs 100 -- max abs diff: 7.105427357601002e-14, mean: 9.216945864812621e-15
+turnout_pct range: 18.989547038327526 - 81.44329896907216
+any turnout_pct > 100: 0
+any negative votes in any party col: False
+any NaN בזב: 0, any NaN כשרים: 0
+any inf in turnout_pct: 0

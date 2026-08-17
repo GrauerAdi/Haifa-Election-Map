@@ -1,0 +1,17 @@
+top-level keys: ['type', 'features']
+sample feature properties: {
+  "OBJECTID_12": 1,
+  "OBJECTID": 662,
+  "Shape_Leng": 12229.9529293,
+  "Shape_Area": 4428081.380659532,
+  "OBJECTID_1": 2,
+  "SEMEL_YISH": 4000,
+  "SHEM_YISHU": "חיפה",
+  "SHEM_YIS_1": "HAIFA",
+  "ROVA": 2,
+  "TAT_ROVA": 21,
+  "SchName": "אזור תעשיה מפרץ",
+  "Shape_Length": 12229.95292932767
+}
+
+all property keys across all features: ['OBJECTID', 'OBJECTID_1', 'OBJECTID_12', 'ROVA', 'SEMEL_YISH', 'SHEM_YISHU', 'SHEM_YIS_1', 'SchName', 'Shape_Area', 'Shape_Leng', 'Shape_Length', 'TAT_ROVA']

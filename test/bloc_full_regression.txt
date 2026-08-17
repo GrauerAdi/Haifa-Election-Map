@@ -1,0 +1,6 @@
+view=Stations layer=מפלגות (Parties) exception=ElementList()
+view=Stations layer=גושים (Blocs) exception=ElementList()
+view=Neighborhoods layer=מפלגות (Parties) exception=ElementList()
+view=Neighborhoods layer=גושים (Blocs) exception=ElementList()
+view=Both layer=מפלגות (Parties) exception=ElementList()
+view=Both layer=גושים (Blocs) exception=ElementList()

@@ -55,9 +55,11 @@ UI change.
   `1.1000000000000001`). The join key must be `round(float(x), 1)` on both sides, or the
   merge silently drops rows.
 - The CSV's 40 party-vote columns are Hebrew ballot-letter codes (`מחל`, `פה`, `שס`, ...),
-  not party names. `src/party_map.py` maps the ~11 major parties to real names for
-  display; everything else falls back to the raw ballot letter. `NON_PARTY_COLS` in
-  `build_data.py` is the fixed list of non-party columns — party columns are derived as
+  not party names. `src/party_map.py` maps all 40 codes to real names for display,
+  extracted from Wikipedia's 25th Knesset results table (parsed from raw HTML directly,
+  not an AI-summarized fetch — an initial summarized fetch produced at least one wrong
+  name). `NON_PARTY_COLS` in `build_data.py` is the fixed list of non-party columns —
+  party columns are derived as
   the set difference, not hand-enumerated, so an unexpected schema change fails loudly
   (assertion on count) rather than silently mis-parsing.
 - Neighborhood-level percentages are recomputed from summed raw vote counts
@@ -141,6 +143,11 @@ API registration, so the municipal open-data GeoJSON was substituted as a direct
 downloadable equivalent. Station-to-neighborhood assignment is a point-in-polygon
 spatial join (`predicate="within"`), not reverse geocoding. This same polygon union also
 serves as Haifa's ground-truth boundary for the geocode validation above.
+`MANUAL_NEIGHBORHOOD_OVERRIDES` in `build_data.py` (applied in `join_neighborhoods()`
+after the spatial join) handles the rare case where a station's geocoded point sits
+essentially exactly on a shared boundary between two adjacent polygons — sub-millimeter
+distances to both — where the raw join result is a coincidence of floating-point
+geometry, not meaningful, and a confirmed real-world assignment should win instead.
 
 ### `app.py` map rendering
 
@@ -175,3 +182,15 @@ serves as Haifa's ground-truth boundary for the geocode validation above.
   corner. Also note: shrinking the legend's `height` below the ~40px default breaks the
   template's internal geometry (`height - 30` for the gradient bar's own height, etc.) —
   only `width` is safe to adjust.
+- **Bloc breakdown (`src/bloc_map.py`)**: an additional "פילוח לפי גוש" section (not a
+  map-coloring option — that was tried via a sidebar layer toggle, then removed at the
+  user's request to keep map coloring exactly as it was) shown in every station popup and
+  appended to every neighborhood `GeoJsonPopup`'s fields, supplementing the existing full
+  per-party table rather than replacing it. Bloc % is computed entirely in `app.py`
+  (`add_bloc_columns`, run once inside the cached `load_data()`) as an in-memory sum of
+  each bloc's member party vote columns ÷ כשרים × 100 — the same weighted formula as
+  `turnout_pct`/every `{party}_pct` column. Deliberately not computed in `build_data.py`:
+  it only groups columns the processed GeoJSONs already contain, so doing it in-memory
+  avoids a pipeline rerun and leaves the on-disk processed files untouched. Map coloring
+  itself only ever uses `metric_options()` (turnout %/per-party %), unchanged from before
+  this feature existed.

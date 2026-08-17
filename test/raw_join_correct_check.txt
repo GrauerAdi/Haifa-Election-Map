@@ -1,0 +1,5 @@
+CSV unique join_key: 424
+XLSX unique join_key: 424
+keys in CSV not in XLSX: 0
+keys in XLSX not in CSV: 0
+merged rows: 424

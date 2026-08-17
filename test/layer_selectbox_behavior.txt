@@ -1,0 +1,4 @@
+initial selectbox value: אחוז הצבעה (Turnout %)
+after picking a party: מחל (הליכוד) %
+after flipping to Blocs layer (selectbox untouched): אחוז הצבעה (Turnout %)
+available options now: ['אחוז הצבעה (Turnout %)', 'גוש ימני-חרדי %', 'גוש השינוי %', 'רשימות ערביות %', 'מתחת לאחוז החסימה %']

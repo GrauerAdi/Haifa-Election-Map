@@ -1,0 +1,4 @@
+exception after initial run: ElementList()
+num radios: 2
+radio label='תצוגה (View)' options=['Stations', 'Neighborhoods', 'Both'] value=Both
+radio label='שכבת מידע (Layer)' options=['מפלגות (Parties)', 'גושים (Blocs)'] value=מפלגות (Parties)

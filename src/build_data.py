@@ -68,6 +68,18 @@ def load_haifa_boundary():
     neigh = gpd.read_file(NEIGHBORHOODS_PATH)
     return neigh.union_all().buffer(HAIFA_BOUNDARY_BUFFER_DEG)
 
+# Manual neighborhood-assignment overrides, applied after the point-in-polygon
+# spatial join in join_neighborhoods(). Used only for stations whose geocoded
+# point sits essentially exactly on a shared boundary between two adjacent
+# polygons — the join result (~2e-7deg / sub-millimeter margin, for אהוד,18
+# below) is then just a coincidence of floating-point geometry, not a
+# meaningful signal, so a confirmed real-world assignment overrides it.
+MANUAL_NEIGHBORHOOD_OVERRIDES = {
+    kalpi: "שמבור" for kalpi in ["273.1", "273.2", "273.3", "273.4", "273.5"]
+    # אהוד,18 (בי"ס אהוד) — sits on the שמבור/אחוזה boundary; the spatial join
+    # landed it in אחוזה, but the school's actual voters are from שמבור.
+}
+
 # Max alternate spellings to try (from the CBS street-synonym registry) when
 # the address as given in the election data doesn't geocode directly, e.g.
 # "שד" vs "שדרות", word order, or a missing/extra letter.
@@ -340,6 +352,11 @@ def join_neighborhoods(gdf_stations):
         gdf_stations, gdf_neigh[["SchName", "geometry"]], how="left", predicate="within"
     )
     joined = joined.rename(columns={"SchName": "neighborhood"}).drop(columns=["index_right"])
+
+    override = joined["קלפי"].map(MANUAL_NEIGHBORHOOD_OVERRIDES)
+    joined["neighborhood"] = override.fillna(joined["neighborhood"])
+    if override.notna().any():
+        print(f"[build_data] Applied {override.notna().sum()} manual neighborhood override(s)")
 
     n_matched = joined["neighborhood"].notna().sum()
     pct = n_matched / len(joined) * 100

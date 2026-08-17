@@ -1,0 +1,9 @@
+קלפי=273.1 lat=32.7917812 lon=34.9889316
+assigned neighborhood: אחוזה
+כתובת קלפי: אהוד,18 
+מקום קלפי: בי"ס אהוד
+
+שמבור polygons found: 1
+  SchName=שמבור contains_point=False distance_deg=1.909499211253766e-07
+אחוזה polygons found: 1
+  SchName=אחוזה contains_point=True distance_deg=1.9149940889063446e-07

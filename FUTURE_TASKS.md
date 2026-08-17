@@ -39,9 +39,11 @@ limitations as of the last session.
     defining a global function wasn't reliably in scope for inline onclick
     handlers by click time). Self-contained onclick logic has no such
     dependency and was confirmed working by the user.
-  - Station popups show the full address, all counts, and **every** party
-    sorted by vote count descending (not just top 3) with 3-decimal-place
-    percentages (not rounded to 1) — both were explicit user requests.
+  - Station popups show the full address, the assigned neighborhood
+    (`שכונה:` row, right under the address), all counts, and **every** party
+    with at least one vote (zero-vote parties skipped — most kalpiyot have
+    several minor parties with 0), sorted by vote count descending, with
+    3-decimal-place percentages (not rounded to 1).
   - Neighborhood polygons are added to the map *before* stations (Leaflet
     stacks by add-order) so stations render on top, not hidden underneath.
   - Neighborhood info uses `GeoJsonPopup` (click), not `GeoJsonTooltip`
@@ -50,14 +52,40 @@ limitations as of the last session.
     own JS template (no constructor kwarg for this) — overridden to
     `topleft` via a copied-and-edited template string, since it was
     otherwise stacking on top of `LayerControl` in the same corner.
+  - **Bloc breakdown (`src/bloc_map.py`)** — an additional "פילוח לפי גוש"
+    section (right-religious / change-anti-Netanyahu / Arab-majority / below
+    electoral threshold) shown in every station popup and appended to every
+    neighborhood `GeoJsonPopup`'s fields, supplementing the existing full
+    per-party table, never replacing it. Computed entirely in `app.py`
+    (`add_bloc_columns`, run once inside the cached `load_data()`) as an
+    in-memory sum of each bloc's member party columns ÷ כשרים × 100 — the
+    same weighted formula as every other percentage in this project.
+    Deliberately not computed in `build_data.py`, and not offered as a
+    separate map-coloring option — an earlier version added a sidebar toggle
+    to recolor the whole map by bloc instead of by party, but the user asked
+    to remove that and keep map coloring exactly as it was (turnout %/
+    per-party %, via `metric_options()`, unchanged); the bloc info is
+    display-only additional context in the popups, not a coloring mode.
 
 ## Current pipeline results (last run)
 
 - **424/424 Haifa stations geocoded successfully (100%)** —
   `data/processed/geocode_failures.csv` is now empty.
 - 424/424 geocoded stations (100%) matched to one of the 76 neighborhoods
-  (51/76 neighborhoods have ≥1 matched station).
+  (52/76 neighborhoods have ≥1 matched station).
 - Turnout % sanity-checked: mean 55.4%, range 19–81% — plausible.
+- **One manual neighborhood-assignment override applied**
+  (`MANUAL_NEIGHBORHOOD_OVERRIDES` in `build_data.py`): kalpiyot 273.1-273.5
+  (all at `אהוד,18`, "בי"ס אהוד") were reassigned from `אחוזה` to `שמבור`.
+  The user noticed this address sits visually right on the boundary between
+  the two neighborhoods; checking the actual geometry confirmed the
+  geocoded point is ~2×10⁻⁷ degrees (a fraction of a millimeter) from both
+  polygons' shared boundary — the point-in-polygon spatial join's original
+  `אחוזה` result was essentially a coincidence of floating-point geometry at
+  that scale, not a meaningful signal, so the user's confirmation of which
+  neighborhood the school's voters actually belong to was used to override
+  it. This moved `שמבור` from 0 to 5 matched stations (52nd neighborhood to
+  gain a station) without affecting any other station's assignment.
 
 ## Known limitations / things worth knowing
 
@@ -178,10 +206,19 @@ limitations as of the last session.
    every cached "ok" entry, sorted descending — real Haifa streets near a
    polygon edge are ~0.01deg (~1km) away; wrong-city matches were 0.01–0.05deg
    (1–5km).
-8. **Party name mapping covers ~11 major parties** (`src/party_map.py`);
-   remaining ballot-letter codes display as-is. Not verified against the
-   official CEC ballot-letter list — spot check before treating as
-   authoritative if this matters for a real deliverable.
+8. **Party name mapping now covers all 40 lists** (`src/party_map.py`), not
+   just the 11 that passed the electoral threshold — extended on user
+   request. All 40 names were extracted directly from the raw HTML of
+   Wikipedia's 25th Knesset results table (parsed with Python's stdlib
+   `html.parser`, not an AI-summarized fetch, after an initial AI-summarized
+   fetch attempt produced at least one wrong/garbled name — worth remembering
+   if this table needs re-deriving later: fetch raw HTML and parse the table
+   yourself rather than trusting a summarized fetch for anything
+   enumerable/exact). Names are shortened from the full ballot nickname
+   (which includes "בראשות/בהנהגת \<name\>") to match the style of the 11
+   majors, except `ת`, a 4-party fusion list with no single short name, kept
+   as its full registered name. Verified programmatically: all 40 codes in
+   `app.py`'s `PARTY_CODES` now resolve to a real name, zero gaps.
 9. **Some "grey" (zero-station) neighborhoods are real gaps, others are
    plausibly just underserved by their own dedicated kalpi.** Investigated
    two on user request: `נאות פרס` (the combined polygon

@@ -1,0 +1,7 @@
+Total neighborhoods: 76
+Neighborhoods with stations: 51
+n_stations mismatches: 0
+neighborhood turnout_pct max diff from recomputed weighted formula: 0.0
+מחל_pct max diff (neighborhood level): 0.0
+Sum of בזב across all matched stations: 253292
+Sum of בזב across all neighborhoods (from agg): 253292.0

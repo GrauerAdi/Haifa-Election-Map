@@ -1,0 +1,3 @@
+kalpi: 2
+rendered party rows: 16
+parties with >0 votes (manual count): 17

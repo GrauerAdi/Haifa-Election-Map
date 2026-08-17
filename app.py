@@ -7,12 +7,14 @@ from pathlib import Path
 import branca.colormap as cm
 import folium
 import geopandas as gpd
+import numpy as np
 import pandas as pd
 import streamlit as st
 from jinja2 import Template
 from streamlit_folium import st_folium
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
+from bloc_map import BLOC_LABELS, full_blocs  # noqa: E402
 from party_map import get_party_name  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).resolve().parent
@@ -112,6 +114,12 @@ PARTY_CODES = [
     "עם", "פה", "ף", "צ", "ץ", "ק", "קי", "קך", "קנ", "קץ", "רז", "שס", "ת",
 ]
 
+# Bloc groupings (src/bloc_map.py) — additional context alongside the
+# per-party breakdown, computed here (not in build_data.py) since it's a
+# cheap in-memory grouping of columns the processed GeoJSONs already
+# contain, not a new offline computation.
+BLOCS_FULL = full_blocs(PARTY_CODES)
+
 st.set_page_config(page_title="Haifa Election Turnout Map", layout="wide")
 
 
@@ -124,10 +132,24 @@ def guard_processed_data_exists():
         st.stop()
 
 
+def add_bloc_columns(gdf):
+    """Adds bloc raw-vote-count and _pct columns — purely additive, doesn't
+    touch any existing column. Bloc % = sum(member party votes) / כשרים *
+    100, the same weighted formula already used for turnout_pct and every
+    per-party _pct column (never averaging per-party percentages)."""
+    valid = gdf["כשרים"].replace(0, np.nan)
+    for bloc_key, codes in BLOCS_FULL.items():
+        gdf[bloc_key] = gdf[codes].sum(axis=1)
+        gdf[f"{bloc_key}_pct"] = gdf[bloc_key] / valid * 100
+    return gdf
+
+
 @st.cache_data
 def load_data():
     stations = gpd.read_file(STATIONS_PATH)
     neighborhoods = gpd.read_file(NEIGHBORHOODS_PATH)
+    stations = add_bloc_columns(stations)
+    neighborhoods = add_bloc_columns(neighborhoods)
     return stations, neighborhoods
 
 
@@ -180,6 +202,26 @@ def rtl_html(inner: str) -> str:
     return f'<div dir="rtl" style="text-align:right; font-family: Arial, sans-serif;">{inner}</div>'
 
 
+def build_bloc_breakdown_html(row):
+    """Additional info: how this kalpi's valid votes split across the 4
+    party blocs (src/bloc_map.py) — shown alongside, not instead of, the
+    full per-party table below it."""
+    rows_html = []
+    for bloc_key, label in BLOC_LABELS.items():
+        votes = row.get(bloc_key)
+        pct = row.get(f"{bloc_key}_pct")
+        if pd.notna(votes):
+            pct_str = f"{pct:.3f}%" if pd.notna(pct) else "—"
+            rows_html.append(f"<tr><td>{label}</td><td>{int(votes)}</td><td>{pct_str}</td></tr>")
+    if not rows_html:
+        return ""
+    return (
+        "<b>פילוח לפי גוש:</b>"
+        '<table><tr><th>גוש</th><th>קולות</th><th>%</th></tr>'
+        f"{''.join(rows_html)}</table><br>"
+    )
+
+
 def build_station_info_html(row, party_codes):
     """Inner content for one kalpi — no outer <div dir="rtl"> wrapper, so it
     can be reused standalone (build_station_popup_html) or embedded as one
@@ -188,9 +230,11 @@ def build_station_info_html(row, party_codes):
     for code in party_codes:
         votes = row.get(code)
         pct = row.get(f"{code}_pct")
-        if pd.notna(votes):
+        if pd.notna(votes) and votes > 0:
             party_rows.append((get_party_name(code), int(votes), pct))
-    # Descending by vote count — every party, not just the top few.
+    # Descending by vote count — every party with at least one vote at this
+    # kalpi, not just the top few (but zero-vote parties are skipped, since
+    # most kalpiyot have several minor parties with 0 votes).
     party_rows.sort(key=lambda x: x[1], reverse=True)
 
     accessible = "כן" if str(row.get("נגישה", "")).strip() else "לא"
@@ -207,9 +251,13 @@ def build_station_info_html(row, party_codes):
         for name, votes, pct in party_rows
     )
 
+    neighborhood = row.get("neighborhood")
+    neighborhood_str = neighborhood if pd.notna(neighborhood) else "אין מידע"
+
     html = f"""
     <b>{row.get('מקום קלפי', '')}</b><br>
     כתובת מלאה: {full_address}<br>
+    שכונה: {neighborhood_str}<br>
     <br>
     קלפי: {row.get('קלפי', '')}<br>
     זכאי הצבעה: {int(row['בזב']) if pd.notna(row.get('בזב')) else 'אין מידע'}<br>
@@ -218,6 +266,7 @@ def build_station_info_html(row, party_codes):
     קולות פסולים: {int(row['פסולים']) if pd.notna(row.get('פסולים')) else 'אין מידע'}<br>
     נגישות: {accessible} (מיוחדת: {accessible_special})<br>
     <br>
+    {build_bloc_breakdown_html(row)}
     <b>כל המפלגות (מהרוב לקולות למיעוט):</b>
     <div style="max-height:220px; overflow-y:auto;">
     <table><tr><th>מפלגה</th><th>קולות</th><th>%</th></tr>{parties_html}</table>
@@ -312,6 +361,15 @@ def build_map(stations, neighborhoods, metric_col, metric_label, view_mode):
 
         popup_fields = ["SchName", metric_col, "n_stations"]
         popup_aliases = ["שכונה", metric_label, "מספר קלפיות"]
+        # Bloc breakdown as additional info, always shown regardless of
+        # which layer (parties/blocs) is currently selected — skip a bloc
+        # field if it's already the selected metric_col, to avoid listing
+        # the same field twice.
+        for bloc_key, bloc_label in BLOC_LABELS.items():
+            field = f"{bloc_key}_pct"
+            if field != metric_col:
+                popup_fields.append(field)
+                popup_aliases.append(f"{bloc_label} %")
 
         # GeoJsonPopup (click-triggered), not GeoJsonTooltip (hover-
         # triggered) — a tooltip would pop up stats on every mouse-over while

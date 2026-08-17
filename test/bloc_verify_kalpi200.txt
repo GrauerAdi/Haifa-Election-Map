@@ -1,0 +1,5 @@
+right religious: computed=71 manual=71 pct=20.579710144927535
+change: computed=261 manual=261 pct=75.65217391304347
+arab: computed=5 manual=5 pct=1.4492753623188406
+below threshold: computed=8 pct=2.318840579710145
+sum of all 4 bloc pcts (should be ~100): 99.99999999999999
